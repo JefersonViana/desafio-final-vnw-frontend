@@ -1,0 +1,47 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(0,27,47);
+  background: linear-gradient(90deg, rgba(0,27,47,1) 0%, rgba(0,86,149,1) 100%);
+}
+
+@media (max-width: 320px) {
+  /* Estilos para dispositivos com largura até 320px */
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  /* Estilos para dispositivos móveis médios */
+  .headerContainer {
+    flex-direction: column;
+    height: 12vh;
+    width: 100%;
+    padding: 1%;
+    gap: 2%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Estilos para tablets */
+  .headerContainer {
+    padding: 1%;
+    height: 11vh;
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Estilos para notebooks pequenos */
+  .headerContainer {
+    padding: 1%;
+    height: 10vh;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1439px) {
+  /* Estilos para Desktop */
+}
+
+@media (min-width: 1440px) {
+  /* Estilos para Desktop telas grandes */
+}
