@@ -1,0 +1,67 @@
+.navContainer {
+  border: 1px solid pink;
+  display: flex;
+  text-wrap: nowrap;
+}
+
+.navLinks {
+  color: #fff;
+}
+
+@media (max-width: 399px) {
+  /* Estilos para dispositivos com largura até 320px */
+  .navContainer {
+    gap: 10%;
+    width: 90%;
+    justify-content: space-between;
+  }
+  .navLinks {
+
+  }
+}
+
+@media (min-width: 400px) and (max-width: 480px) {
+  /* Estilos para dispositivos móveis médios */
+  .navContainer {
+    gap: 10%;
+    width: 90%;
+    justify-content: space-between;
+  }
+  .navLinks {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Estilos para tablets */
+  .navContainer {
+    justify-content: space-between;
+    // gap: 1%;
+    width: 50%;
+  }
+
+  .navLinks {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Estilos para notebooks pequenos */
+  .navContainer {
+    justify-content: space-between;
+    gap: 10%;
+    width: 35%;
+  }
+
+  .navLinks {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1439px) {
+  /* Estilos para Desktop */
+}
+
+@media (min-width: 1440px) {
+  /* Estilos para Desktop telas grandes */
+}

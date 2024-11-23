@@ -1,8 +1,16 @@
-import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import '../src/GlobalStyles/globalStyle.scss';
+import Inicio from './pages/inicio/Inicio';
 
 function App() {
   return (
-    <div>initial</div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={ <Inicio /> } />
+        {/* <Route path='/' element={ <Inicio /> } /> */}
+        {/* <Route path='/' element={ <Inicio /> } /> */}
+      </Routes>
+    </BrowserRouter>
   )
 }
 

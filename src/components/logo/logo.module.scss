@@ -1,0 +1,65 @@
+.logoContainer {
+  border: 1px solid green;
+  display: flex;
+  align-items: center;
+}
+
+.logoImg {
+
+}
+
+.logoH2 {
+  text-wrap: nowrap;
+  color: #fff;
+}
+
+@media (max-width: 320px) {
+  /* Estilos para dispositivos com largura até 320px */
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  /* Estilos para dispositivos móveis médios */
+  .logoContainer {
+    gap: 8%;
+  }
+
+  .logoImg {
+    width: 40px;
+    height: 40px;
+  }
+  
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Estilos para tablets */
+  .logoContainer {
+    gap: 5%;
+  }
+  .logoImg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .logoH2 {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Estilos para notebooks pequenos */
+  .logoContainer {
+    gap: 5%;
+  }
+  .logoImg {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1439px) {
+  /* Estilos para Desktop */
+}
+
+@media (min-width: 1440px) {
+  /* Estilos para Desktop telas grandes */
+}
