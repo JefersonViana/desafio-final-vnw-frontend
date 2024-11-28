@@ -1,5 +1,5 @@
 .logoContainer {
-  border: 1px solid green;
+  // border: 1px solid green;
   display: flex;
   align-items: center;
 }
@@ -56,10 +56,21 @@
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1439px) {
-  /* Estilos para Desktop */
-}
+// @media (min-width: 1025px) and (max-width: 1439px) {
+//   /* Estilos para Desktop */
+// }
 
-@media (min-width: 1440px) {
+@media (min-width: 1025px) {
   /* Estilos para Desktop telas grandes */
+  .logoContainer {
+    gap: 5%;
+    align-items: center;
+  }
+  .logoH2 {
+    font-size: 4vh;
+  }
+  .logoImg {
+    height: 60px;
+    width: 60px;
+  }
 }
