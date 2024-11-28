@@ -34,14 +34,18 @@
   /* Estilos para notebooks pequenos */
   .headerContainer {
     padding: 1%;
-    height: 10vh;
+    height: 13vh;
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1439px) {
-  /* Estilos para Desktop */
-}
+// @media (min-width: 1025px) and (max-width: 1439px) {
+//   /* Estilos para Desktop */
+// }
 
-@media (min-width: 1440px) {
+@media (min-width: 1025px) {
   /* Estilos para Desktop telas grandes */
+  .headerContainer {
+    height: 13vh;
+    padding: 0.5vh 1vh;
+  }
 }

@@ -1,11 +1,17 @@
 .searchContainer {
-  border: 1px solid red;
+  // border: 1px solid red;
 }
 
 .searchInput {
   background-color: transparent;
   border-style: none;
   border: 1px solid #fff;
+  text-align: center;
+  color: #fff;
+}
+
+.searchInput::-webkit-input-placeholder {
+  color: #fff;
 }
 
 .searchImg {
@@ -34,6 +40,7 @@
     height: 3vh;
     border-radius: 12px;
     width: 90%;
+    font-size: 1.2vh;
   }
   .searchImg {
     right: 15%;
@@ -52,6 +59,7 @@
     height: 3vh;
     border-radius: 12px;
     width: 100%;
+    font-size: 1.5vh;
   }
   .searchImg {
     z-index: 1;
@@ -61,10 +69,25 @@
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1439px) {
-  /* Estilos para Desktop */
-}
+// @media (min-width: 1025px) and (max-width: 1439px) {
+//   /* Estilos para Desktop */
+// }
 
-@media (min-width: 1440px) {
+@media (min-width: 1025px) {
   /* Estilos para Desktop telas grandes */
+  .searchContainer {
+    width: 25%;
+    display: flex;
+  }
+  .searchInput {
+    height: 4vh;
+    border-radius: 12px;
+    width: 100%;
+  }
+  .searchImg {
+    z-index: 1;
+    left: 92%;
+    top: 0.5vh;
+    height: 3vh;
+  }
 }

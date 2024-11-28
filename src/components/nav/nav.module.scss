@@ -1,5 +1,5 @@
 .navContainer {
-  border: 1px solid pink;
+  // // // border: 1px solid pink;
   display: flex;
   text-wrap: nowrap;
 }
@@ -62,6 +62,15 @@
   /* Estilos para Desktop */
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1025px) {
   /* Estilos para Desktop telas grandes */
+  .navContainer {
+    justify-content: space-between;
+    gap: 10%;
+    width: 35%;
+  }
+
+  .navLinks {
+    font-size: 19px;
+  }
 }
