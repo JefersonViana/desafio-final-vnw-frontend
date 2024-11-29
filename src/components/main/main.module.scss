@@ -1,0 +1,69 @@
+.main {
+  display: flex;
+}
+.mainH2 {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  align-self: center;
+}
+
+@media (max-width: 320px) {
+  /* Estilos para dispositivos com largura até 320px */
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  /* Estilos para dispositivos móveis médios */
+  .mainImg {
+    width: 100%;
+    height: 40vh;
+  }
+  .mainH2 {
+    width: 70%;
+    left: 16%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Estilos para tablets */
+  .mainImg {
+    height: 40vh;
+    width: 100%;
+  }
+
+  .mainH2 {
+    width: 35%;
+    left: 10%;
+    text-align: start;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Estilos para notebooks pequenos */
+  .mainImg {
+    height: 50vh;
+    width: 100%;
+  }
+  .mainH2 {
+    width: 28%;
+    left: 10%;
+    text-align: start;
+  }
+}
+
+// @media (min-width: 1025px) and (max-width: 1439px) {
+//   /* Estilos para Desktop */
+// }
+
+@media (min-width: 1025px) {
+  /* Estilos para Desktop telas grandes */ 
+  .mainImg {
+    height: 50vh;
+    width: 100%;
+  }
+  .mainH2 {
+    width: 18%;
+    left: 10%;
+    text-align: start;
+  }
+}
