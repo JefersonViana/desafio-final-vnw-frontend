@@ -33,7 +33,6 @@
     padding: 15%;
   }
   .mainSectionCards {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     gap: 2.5vh;
@@ -64,7 +63,6 @@
     margin-bottom: 6%;
   }
   .mainSectionCards {
-    border: 1px solid red;
     display: flex;
     align-items: center;
     gap: 2.5vh;
@@ -88,14 +86,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 6%;
+    padding: 4%;
   }
   .mainSectionTwoH2 {
     color: #005695;
-    margin-bottom: 6%;
+    margin-bottom: 4%;
   }
   .mainSectionCards {
-    border: 1px solid red;
     display: flex;
     align-items: center;
     gap: 2.5vh;
@@ -111,7 +108,7 @@
 @media (min-width: 1025px) {
   /* Estilos para Desktop telas grandes */ 
   .mainImg {
-    height: 50vh;
+    height: 60vh;
     width: 100%;
   }
   .mainH2 {
@@ -123,6 +120,19 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 8%;
+    padding: 4%;
+  }
+
+  .mainSectionTwoH2 {
+    color: #005695;
+    margin-bottom: 4%;
+  }
+
+  .mainSectionCards {
+    display: flex;
+    align-items: center;
+    gap: 2.5vh;
+    flex-wrap: nowrap;
+    justify-content: center;
   }
 }
