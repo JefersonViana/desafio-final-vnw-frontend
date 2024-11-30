@@ -1,4 +1,4 @@
-.main {
+.mainSectionOne {
   display: flex;
 }
 .mainH2 {
@@ -7,7 +7,10 @@
   text-align: center;
   align-self: center;
 }
-
+.mainSectionTwoH2 {
+  color: #005695;
+  margin-bottom: 10%;
+}
 @media (max-width: 320px) {
   /* Estilos para dispositivos com largura até 320px */
 }
@@ -21,6 +24,18 @@
   .mainH2 {
     width: 70%;
     left: 16%;
+  }
+  .mainSectionTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15%;
+  }
+  .mainSectionCards {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vh;
   }
 }
 
@@ -36,6 +51,24 @@
     left: 10%;
     text-align: start;
   }
+
+  .mainSectionTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6%;
+  }
+  .mainSectionTwoH2 {
+    color: #005695;
+    margin-bottom: 6%;
+  }
+  .mainSectionCards {
+    display: flex;
+    align-items: center;
+    gap: 2.5vh;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -49,6 +82,23 @@
     left: 10%;
     text-align: start;
   }
+  .mainSectionTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4%;
+  }
+  .mainSectionTwoH2 {
+    color: #005695;
+    margin-bottom: 4%;
+  }
+  .mainSectionCards {
+    display: flex;
+    align-items: center;
+    gap: 2.5vh;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 // @media (min-width: 1025px) and (max-width: 1439px) {
@@ -58,12 +108,31 @@
 @media (min-width: 1025px) {
   /* Estilos para Desktop telas grandes */ 
   .mainImg {
-    height: 50vh;
+    height: 60vh;
     width: 100%;
   }
   .mainH2 {
     width: 18%;
     left: 10%;
     text-align: start;
+  }
+  .mainSectionTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4%;
+  }
+
+  .mainSectionTwoH2 {
+    color: #005695;
+    margin-bottom: 4%;
+  }
+
+  .mainSectionCards {
+    display: flex;
+    align-items: center;
+    gap: 2.5vh;
+    flex-wrap: nowrap;
+    justify-content: center;
   }
 }
