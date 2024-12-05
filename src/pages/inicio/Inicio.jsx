@@ -1,5 +1,6 @@
 import Header from "../../components/header/Header";
 import Main from './../../components/main/Main';
+import Footer from './../../components/footer/Footer';
 
 
 const Inicio = () => {
@@ -7,7 +8,7 @@ const Inicio = () => {
     <>
       <Header />
       <Main />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
