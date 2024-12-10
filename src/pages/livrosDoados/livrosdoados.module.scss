@@ -1,3 +1,18 @@
+.livrosDoadosMain {
+  height: 85vh;
+  width: 100%;
+  padding: 2rem;
+}
+
+.livrosDoadosSection {
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.livrosDoadosImg {
+  height: 60px;
+  width: 60%;
+}
 
 @media (max-width: 320px) {
   /* Estilos para dispositivos com largura até 320px */
