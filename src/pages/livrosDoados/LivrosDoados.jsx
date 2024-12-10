@@ -1,9 +1,9 @@
 import Header from './../../components/header/Header';
 import Footer from './../../components/footer/Footer';
-import s from './livrosDoados.module.scss';
+import s from './livrosdoados.module.scss';
 import img from '../../assets/livroDoado.png'
 
-const QueroDoar = () => {
+const LivrosDoados = () => {
   return (
     <>
     <Header />
@@ -17,4 +17,4 @@ const QueroDoar = () => {
   );
 };
 
-export default QueroDoar;
+export default LivrosDoados;
